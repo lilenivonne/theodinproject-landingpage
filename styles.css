@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    font-family: 'Roboto';
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 2.5vw;
+}
+
+nav ul {
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+}
+
+nav ul li a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+
+}
