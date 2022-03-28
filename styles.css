@@ -1,16 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background-color: #1F2937;
+}
+
+/* Header/navbar */
 
 header {
     background-color: #1F2937;
     display: flex;
     position: fixed;
+    top: 0;
     width: 100vw;
     font-family: 'Roboto';
     justify-content: space-between;
     align-items: center;
+    height: 3vh;
 }
 
 header h2 {
@@ -36,4 +45,92 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
 
+}
+
+/* About section */
+
+#about {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 45vh;
+
+}
+
+#about div {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    margin-right: 2.5vw;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#about h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+#about p {
+    color: #e5e7eB;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 125%;
+}
+
+#about button {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+#about img {
+    width: 30vw;
+    height: auto;
+}
+
+/* Products section */
+
+#our-products {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#our-products h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+#our-products #wallpapers {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#our-products .img-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#our-products p {
+    font-size: 20px;
+    font-weight: 600;
+    justify-self: center;
+    align-self: center;
+    margin-top: 15px;
+}
+
+#our-products img {
+    height: 30vh;
+    width: 30vh;
 }
