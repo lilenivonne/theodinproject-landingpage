@@ -59,7 +59,7 @@ nav ul li a {
 
 }
 
-#about div {
+#textbox {
     display: flex;
     flex-direction: column;
     width: 30vw;
@@ -82,10 +82,9 @@ nav ul li a {
     line-height: 125%;
 }
 
-#about button {
-    margin-top: 15px;
-    width: 100px;
-    height: 30px;
+#button-box {
+    width: 100;
+    align-self: flex-start;
 }
 
 #about img {
@@ -96,7 +95,7 @@ nav ul li a {
 /* Products section */
 
 #our-products {
-    background-color: #e5e7eb;
+    background-color: white;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -133,4 +132,98 @@ nav ul li a {
 #our-products img {
     height: 30vh;
     width: 30vh;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Quote section */
+
+#quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+#quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-bottom: 10px;
+    width: 90vw;
+}
+
+/* Signup section */
+
+#signup {
+    background-color: white;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bluebox {
+    background-color: #3882f6;
+    height: 30vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    border-radius: 12.5px;
+    
+}
+
+#journey {
+    height: 20vh;
+    width: 52.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#journey h3 {
+    align-self: center;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+#journey p {
+    color: white;
+    font-size: 20px;
+}
+
+#button-container {
+    display: flex;
+    width: 17.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Signup button */
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
+#about-section-button {
+    border: none;
 }
